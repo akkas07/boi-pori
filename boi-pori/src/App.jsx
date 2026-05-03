@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <FeaturedBooks />
-      <Footer />   {/* Footer যোগ করা হলো */}
+      <Footer />   
     </>
   );
 }

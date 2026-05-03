@@ -52,8 +52,7 @@
 
 .add-btn:hover {
   background-color: #1e40af;
-  box-shadow: 0 0 10px #22c55e; /* সবুজ glow */
-}
+  box-shadow: 0 0 10px #22c55e;
 
 .remove-btn {
   background-color: #dc2626;
@@ -62,8 +61,7 @@
 
 .remove-btn:hover {
   background-color: #991b1b;
-  box-shadow: 0 0 10px #22c55e; /* সবুজ glow */
-}
+  box-shadow: 0 0 10px #22c55e; 
 
 /* Cart Section Responsive */
 .cart-section {
@@ -122,6 +120,6 @@
 
 @media (max-width: 480px) {
   .books-grid, .cart-items {
-    grid-template-columns: 1fr; /* মোবাইলে এক কলাম */
+    grid-template-columns: 1fr;
   }
 }
