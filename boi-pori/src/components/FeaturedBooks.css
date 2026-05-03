@@ -61,7 +61,8 @@
 
 .remove-btn:hover {
   background-color: #991b1b;
-  box-shadow: 0 0 10px #22c55e; 
+  box-shadow: 0 0 10px #22c55e;
+}
 
 /* Cart Section Responsive */
 .cart-section {
@@ -120,6 +121,6 @@
 
 @media (max-width: 480px) {
   .books-grid, .cart-items {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
   }
 }
