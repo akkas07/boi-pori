@@ -1,0 +1,84 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background: #f9fafb;
+  flex-wrap: wrap; /* responsive */
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.banner-content {
+  flex: 1;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.quote {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #374151;
+  margin-bottom: 24px;
+}
+
+.highlight {
+  color: #f97316;
+  font-weight: bold;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.free {
+  background-color: #10b981;
+  color: white;
+}
+
+.btn.rent {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn.buy {
+  background-color: #f97316;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .quote {
+    font-size: 18px;
+  }
+}
