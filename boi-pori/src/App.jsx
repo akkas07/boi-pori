@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import FeaturedBooks from "./components/FeaturedBooks";
+import Footer from "./components/Footer";   // Footer import
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <FeaturedBooks />
+      <Footer />   {/* Footer যোগ করা হলো */}
     </>
   );
 }
